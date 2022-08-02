@@ -67,7 +67,7 @@ if (!self.define) {
     });
   };
 }
-define(['./workbox-48e32ed0'], (function (workbox) { 'use strict';
+define(['./workbox-4f2521be'], (function (workbox) { 'use strict';
 
   /**
   * Welcome to your Workbox-powered service worker!
@@ -93,14 +93,14 @@ define(['./workbox-48e32ed0'], (function (workbox) { 'use strict';
    */
 
   workbox.precacheAndRoute([{
-    "url": "/app.bundle.js",
-    "revision": "c38bec9618797412dd327c95055d70cb"
+    "url": "./1.app.bundle.js",
+    "revision": "ae3a100ad1ff6bd421fd63d6bafb611c"
   }, {
-    "url": "/index.html",
-    "revision": "98876b5871debe777f3b14d414153eca"
+    "url": "./app.bundle.js",
+    "revision": "0fcf00bc0b24c6244a830c1135eb21c4"
   }, {
-    "url": "/src_pages_Favs_js.app.bundle.js",
-    "revision": "fdbb3fcb314e86bd175e8a7825c10dac"
+    "url": "./index.html",
+    "revision": "2aef58af9c3f1e930c24046dd2ef7d2d"
   }], {});
   workbox.registerRoute(/https:\/\/res.cloudinary.com| images.unsplash.com/, new workbox.CacheFirst({
     "cacheName": "images",
