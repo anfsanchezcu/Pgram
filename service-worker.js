@@ -97,7 +97,7 @@ define(['./workbox-4f2521be'], (function (workbox) { 'use strict';
     "revision": "ae3a100ad1ff6bd421fd63d6bafb611c"
   }, {
     "url": "./app.bundle.js",
-    "revision": "0fcf00bc0b24c6244a830c1135eb21c4"
+    "revision": "5d74bc9a1abce75286cdde49b0c6423a"
   }, {
     "url": "./index.html",
     "revision": "2aef58af9c3f1e930c24046dd2ef7d2d"

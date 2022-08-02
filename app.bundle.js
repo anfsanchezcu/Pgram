@@ -25269,6 +25269,8 @@ var App = function App() {
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pages_Home__WEBPACK_IMPORTED_MODULE_4__.Home, {
     path: "/"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pages_Home__WEBPACK_IMPORTED_MODULE_4__.Home, {
+    path: "/Pgram/"
+  }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pages_Home__WEBPACK_IMPORTED_MODULE_4__.Home, {
     path: "/pet/:id"
   }), /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement(_pages_Detail__WEBPACK_IMPORTED_MODULE_5__.Detail, {
     path: "/detail/:detailId"
