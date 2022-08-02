@@ -1,0 +1,43 @@
+{
+  "icons": [
+    {
+      "src": "/icon_512x512.bcaa35ea94505169b5b31143370047e9.svg",
+      "sizes": "512x512",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_384x384.bcaa35ea94505169b5b31143370047e9.svg",
+      "sizes": "384x384",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_256x256.bcaa35ea94505169b5b31143370047e9.svg",
+      "sizes": "256x256",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_192x192.bcaa35ea94505169b5b31143370047e9.svg",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_128x128.bcaa35ea94505169b5b31143370047e9.svg",
+      "sizes": "128x128",
+      "type": "image/svg+xml"
+    },
+    {
+      "src": "/icon_96x96.bcaa35ea94505169b5b31143370047e9.svg",
+      "sizes": "96x96",
+      "type": "image/svg+xml"
+    }
+  ],
+  "name": "MyPetGram - La app que buscabas para tu mascota",
+  "short_name": "MyPetGram - La app que buscabas para tu mascota",
+  "orientation": "portrait",
+  "display": "standalone",
+  "start_url": ".",
+  "shortname": "MyPetgram :P",
+  "description": "Sube a tu mascota a redes sociales y hazlo viral",
+  "background_color": "#fff",
+  "theme_color": "#b1a"
+}

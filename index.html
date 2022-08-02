@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Andres Felipe Sanchez Cuatindioy -Midudev-platzi :3">
+    <meta name="MobileOptimized" content="with">
+    <meta name="HandheldFriendly" content="true">
+
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-trnslucent">
+    <title>MyPetGram</title>
+<script defer src="/app.bundle.js"></script><meta name="theme-color" content="#b1a" /><link rel="manifest" href="/manifest.e93efd049152d77dec0e35aa58a054ba.json" /><link rel="mask-icon" href="/icon_512x512.bcaa35ea94505169b5b31143370047e9.svg" /></head>
+
+<body>
+    <div id="app"></div>
+    <noscript>
+        <h3>Esta app necesita javascript para funcionar</h3>
+        <h3>This app needs javaScript to work</h3>
+    </noscript>
+    <script>
+        if('serviceWorker' in navigator){
+            window.addEventListener('load',function(){
+                navigator.serviceWorker.register('/service-worker.js')
+                .then(registration=>{
+                    console.log("registration: ", registration)
+                })
+                .catch(resgistrationError=>{
+                    console.log("resgistrationError: ", resgistrationError)
+                })
+            })
+        }
+    </script>
+</body>
+
+</html>
